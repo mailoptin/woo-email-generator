@@ -52,7 +52,7 @@ defined('ABSPATH') or die("Direct access to the script does not allowed");
 								<?php
 								$args = array(
 									'post_type' => 'product',
-									'paged' => $paged,
+									'paged' => 1,
 									'posts_per_page' => -1
 
 								);
